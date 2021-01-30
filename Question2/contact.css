@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    margin-top: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+ 
+.navigation {
+    text-align: right;
+    height: 70px;
+
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-family: var(--Playfair);
+    line-height: 30px
+    
+}
+
+.menu {
+    margin: 0 30px 0 0;
+    text-align: right;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    line-height: 30px;
+    font-size: 20px; 
+}
+.menu a:hover{
+    opacity: 0.7;
+    color: red;
+}
+table {
+    font-family:Comic Sans ;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .col-25 {    
+    float: left;    
+    width:150px;    
+    margin-top: 6px;    
+  }    
+      
+  .col-75 {    
+    float: left;    
+    width: 75%;    
+    margin-top: 6px;    
+  }
+
+  label {    
+    padding: 12px 12px 12px 0;    
+    display: inline-block;    
+  } 
+
+  input[type=text], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    }
+
+
+ button {    
+    background-color: red;    
+    color: white;    
+    padding: 12px 20px;    
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    float: right;    
+  }
